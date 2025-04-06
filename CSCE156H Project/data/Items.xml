@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<items>
+<equipment>
+  <uuid>faa515df-50d3-40e1-a9d9-cb6ce2ad692a</uuid>
+  <name>Item faa515df</name>
+  <modelNumber>Model9045</modelNumber>
+  <price>22342.0</price>
+</equipment>
+<material>
+  <uuid>93e05b1e-d4d4-4b4d-8612-9ccd4a588245</uuid>
+  <name>Item 93e05b1e</name>
+  <unit>kg</unit>
+  <costPerUnit>23.0</costPerUnit>
+</material>
+<material>
+  <uuid>4eccf523-6f05-4f9c-9911-116f5f997717</uuid>
+  <name>Item 4eccf523</name>
+  <unit>liter</unit>
+  <costPerUnit>8.0</costPerUnit>
+</material>
+<material>
+  <uuid>bc56f8f0-3fc5-4513-ae4d-ef1c1678e59d</uuid>
+  <name>Item bc56f8f0</name>
+  <unit>bag</unit>
+  <costPerUnit>75.0</costPerUnit>
+</material>
+<contract>
+  <uuid>18570ba0-cc51-4395-91a8-48c488d08d57</uuid>
+  <name>Item 18570ba0</name>
+  <servicer>
+    <companyUuid>faa515df-50d3-40e1-a9d9-cb6ce2ad692a</companyUuid>
+    <name>Koepp-Hermann</name>
+    <contact>
+      <personUuid>331919f3-6e5a-494c-aaa7-57860510b876</personUuid>
+      <firstName>Mariquilla</firstName>
+      <lastName>Stocky</lastName>
+      <phone>597-112-7341</phone>
+      <emails>
+        <email>mstockya@youku.com</email>
+        <email>mstockya@ft.com</email>
+        <email>mstockya@newyorker.com</email>
+      </emails>
+    </contact>
+    <address>
+      <street>92954 Armistice Court</street>
+      <city>Salt Lake City</city>
+      <state>UT</state>
+      <zip>84135</zip>
+    </address>
+  </servicer>
+</contract>
+<material>
+  <uuid>ef12934f-ebc8-4633-ab1e-323766428cfc</uuid>
+  <name>Item ef12934f</name>
+  <unit>liter</unit>
+  <costPerUnit>69.0</costPerUnit>
+</material>
+<contract>
+  <uuid>bc56f8f0-3fc5-4513-ae4d-ef1c1678e59d</uuid>
+  <name>Item bc56f8f0</name>
+  <servicer>
+    <companyUuid>fc572b87-1a14-4225-997d-124245d2e7c3</companyUuid>
+    <name>Champlin Group</name>
+    <contact>
+      <personUuid>331919f3-6e5a-494c-aaa7-57860510b876</personUuid>
+      <firstName>Mariquilla</firstName>
+      <lastName>Stocky</lastName>
+      <phone>597-112-7341</phone>
+      <emails>
+        <email>mstockya@youku.com</email>
+        <email>mstockya@ft.com</email>
+        <email>mstockya@newyorker.com</email>
+      </emails>
+    </contact>
+    <address>
+      <street>0130 Michigan Lane</street>
+      <city>San Francisco</city>
+      <state>CA</state>
+      <zip>94154</zip>
+    </address>
+  </servicer>
+</contract>
+<material>
+  <uuid>1e5b2f1b-cbd8-41f5-b431-177fc6e3bc66</uuid>
+  <name>Item 1e5b2f1b</name>
+  <unit>bag</unit>
+  <costPerUnit>64.0</costPerUnit>
+</material>
+<equipment>
+  <uuid>0fa5aabc-ac51-41cd-bcde-21026dd2577a</uuid>
+  <name>Item 0fa5aabc</name>
+  <modelNumber>Model5371</modelNumber>
+  <price>28136.0</price>
+</equipment>
+<material>
+  <uuid>f711faf6-07dc-489f-87a6-0af910d761e4</uuid>
+  <name>Item f711faf6</name>
+  <unit>kg</unit>
+  <costPerUnit>21.0</costPerUnit>
+</material>
+<contract>
+  <uuid>c77f0e10-bc96-4edf-aae7-03bb67ad9e0a</uuid>
+  <name>Item c77f0e10</name>
+  <servicer>
+    <companyUuid>1e5b2f1b-cbd8-41f5-b431-177fc6e3bc66</companyUuid>
+    <name>Becker LLC</name>
+    <contact>
+      <personUuid>331919f3-6e5a-494c-aaa7-57860510b876</personUuid>
+      <firstName>Mariquilla</firstName>
+      <lastName>Stocky</lastName>
+      <phone>597-112-7341</phone>
+      <emails>
+        <email>mstockya@youku.com</email>
+        <email>mstockya@ft.com</email>
+        <email>mstockya@newyorker.com</email>
+      </emails>
+    </contact>
+    <address>
+      <street>7 Monterey Crossing</street>
+      <city>Fort Lauderdale</city>
+      <state>FL</state>
+      <zip>33345</zip>
+    </address>
+  </servicer>
+</contract>
+</items>

@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<companies>
+<company>
+  <companyUuid>26f5ba32-9ddb-4fcf-bc2c-784027ece053</companyUuid>
+  <name>Gerhold-Lynch</name>
+  <contact>
+    <personUuid>331919f3-6e5a-494c-aaa7-57860510b876</personUuid>
+    <firstName>Mariquilla</firstName>
+    <lastName>Stocky</lastName>
+    <phone>597-112-7341</phone>
+    <emails>
+      <email>mstockya@youku.com</email>
+      <email>mstockya@ft.com</email>
+      <email>mstockya@newyorker.com</email>
+    </emails>
+  </contact>
+  <address>
+    <street>126 Scott Place</street>
+    <city>Fresno</city>
+    <state>CA</state>
+    <zip>93786</zip>
+  </address>
+</company>
+<company>
+  <companyUuid>9e89056f-ab0f-4f6a-a2a2-fd6c81d1ac7f</companyUuid>
+  <name>Johnson Inc</name>
+  <contact>
+    <personUuid>331919f3-6e5a-494c-aaa7-57860510b876</personUuid>
+    <firstName>Mariquilla</firstName>
+    <lastName>Stocky</lastName>
+    <phone>597-112-7341</phone>
+    <emails>
+      <email>mstockya@youku.com</email>
+      <email>mstockya@ft.com</email>
+      <email>mstockya@newyorker.com</email>
+    </emails>
+  </contact>
+  <address>
+    <street>4253 Dryden Center</street>
+    <city>Houston</city>
+    <state>TX</state>
+    <zip>77080</zip>
+  </address>
+</company>
+<company>
+  <companyUuid>c4be8177-4157-44ca-a956-6251957a7e36</companyUuid>
+  <name>Hegmann LLC</name>
+  <contact>
+    <personUuid>331919f3-6e5a-494c-aaa7-57860510b876</personUuid>
+    <firstName>Mariquilla</firstName>
+    <lastName>Stocky</lastName>
+    <phone>597-112-7341</phone>
+    <emails>
+      <email>mstockya@youku.com</email>
+      <email>mstockya@ft.com</email>
+      <email>mstockya@newyorker.com</email>
+    </emails>
+  </contact>
+  <address>
+    <street>233 Comanche Crossing</street>
+    <city>San Francisco</city>
+    <state>CA</state>
+    <zip>94132</zip>
+  </address>
+</company>
+<company>
+  <companyUuid>443e33fd-7988-4151-90ad-ff8eedff1b25</companyUuid>
+  <name>Schamberger Group</name>
+  <contact>
+    <personUuid>331919f3-6e5a-494c-aaa7-57860510b876</personUuid>
+    <firstName>Mariquilla</firstName>
+    <lastName>Stocky</lastName>
+    <phone>597-112-7341</phone>
+    <emails>
+      <email>mstockya@youku.com</email>
+      <email>mstockya@ft.com</email>
+      <email>mstockya@newyorker.com</email>
+    </emails>
+  </contact>
+  <address>
+    <street>568 Maple Wood Court</street>
+    <city>Pittsburgh</city>
+    <state>PA</state>
+    <zip>15220</zip>
+  </address>
+</company>
+<company>
+  <companyUuid>1e5b2f1b-cbd8-41f5-b431-177fc6e3bc66</companyUuid>
+  <name>Becker LLC</name>
+  <contact>
+    <personUuid>331919f3-6e5a-494c-aaa7-57860510b876</personUuid>
+    <firstName>Mariquilla</firstName>
+    <lastName>Stocky</lastName>
+    <phone>597-112-7341</phone>
+    <emails>
+      <email>mstockya@youku.com</email>
+      <email>mstockya@ft.com</email>
+      <email>mstockya@newyorker.com</email>
+    </emails>
+  </contact>
+  <address>
+    <street>7 Monterey Crossing</street>
+    <city>Fort Lauderdale</city>
+    <state>FL</state>
+    <zip>33345</zip>
+  </address>
+</company>
+<company>
+  <companyUuid>3d0150a6-de45-45c7-acce-c25ee7195c56</companyUuid>
+  <name>Bernhard-Kassulke</name>
+  <contact>
+    <personUuid>331919f3-6e5a-494c-aaa7-57860510b876</personUuid>
+    <firstName>Mariquilla</firstName>
+    <lastName>Stocky</lastName>
+    <phone>597-112-7341</phone>
+    <emails>
+      <email>mstockya@youku.com</email>
+      <email>mstockya@ft.com</email>
+      <email>mstockya@newyorker.com</email>
+    </emails>
+  </contact>
+  <address>
+    <street>95182 Clyde Gallagher Center</street>
+    <city>Atlanta</city>
+    <state>GA</state>
+    <zip>31196</zip>
+  </address>
+</company>
+<company>
+  <companyUuid>f711faf6-07dc-489f-87a6-0af910d761e4</companyUuid>
+  <name>&quot;Kozey</name>
+  <contact>
+    <personUuid>331919f3-6e5a-494c-aaa7-57860510b876</personUuid>
+    <firstName>Mariquilla</firstName>
+    <lastName>Stocky</lastName>
+    <phone>597-112-7341</phone>
+    <emails>
+      <email>mstockya@youku.com</email>
+      <email>mstockya@ft.com</email>
+      <email>mstockya@newyorker.com</email>
+    </emails>
+  </contact>
+  <address>
+    <street> Lockman and Bruen&quot;</street>
+    <city>386 David Trail</city>
+    <state>Tulsa</state>
+    <zip>OK</zip>
+  </address>
+</company>
+<company>
+  <companyUuid>0fa5aabc-ac51-41cd-bcde-21026dd2577a</companyUuid>
+  <name>&quot;Bauch</name>
+  <contact>
+    <personUuid>331919f3-6e5a-494c-aaa7-57860510b876</personUuid>
+    <firstName>Mariquilla</firstName>
+    <lastName>Stocky</lastName>
+    <phone>597-112-7341</phone>
+    <emails>
+      <email>mstockya@youku.com</email>
+      <email>mstockya@ft.com</email>
+      <email>mstockya@newyorker.com</email>
+    </emails>
+  </contact>
+  <address>
+    <street> Maggio and Braun&quot;</street>
+    <city>0 Bowman Park</city>
+    <state>Hartford</state>
+    <zip>CT</zip>
+  </address>
+</company>
+<company>
+  <companyUuid>fc572b87-1a14-4225-997d-124245d2e7c3</companyUuid>
+  <name>Champlin Group</name>
+  <contact>
+    <personUuid>331919f3-6e5a-494c-aaa7-57860510b876</personUuid>
+    <firstName>Mariquilla</firstName>
+    <lastName>Stocky</lastName>
+    <phone>597-112-7341</phone>
+    <emails>
+      <email>mstockya@youku.com</email>
+      <email>mstockya@ft.com</email>
+      <email>mstockya@newyorker.com</email>
+    </emails>
+  </contact>
+  <address>
+    <street>0130 Michigan Lane</street>
+    <city>San Francisco</city>
+    <state>CA</state>
+    <zip>94154</zip>
+  </address>
+</company>
+<company>
+  <companyUuid>ecb71dd5-ea29-4ea7-916e-7ce6e8e63eb7</companyUuid>
+  <name>Hand-Nikolaus</name>
+  <contact>
+    <personUuid>331919f3-6e5a-494c-aaa7-57860510b876</personUuid>
+    <firstName>Mariquilla</firstName>
+    <lastName>Stocky</lastName>
+    <phone>597-112-7341</phone>
+    <emails>
+      <email>mstockya@youku.com</email>
+      <email>mstockya@ft.com</email>
+      <email>mstockya@newyorker.com</email>
+    </emails>
+  </contact>
+  <address>
+    <street>09867 Stone Corner Point</street>
+    <city>Port Charlotte</city>
+    <state>FL</state>
+    <zip>33954</zip>
+  </address>
+</company>
+<company>
+  <companyUuid>faa515df-50d3-40e1-a9d9-cb6ce2ad692a</companyUuid>
+  <name>Koepp-Hermann</name>
+  <contact>
+    <personUuid>331919f3-6e5a-494c-aaa7-57860510b876</personUuid>
+    <firstName>Mariquilla</firstName>
+    <lastName>Stocky</lastName>
+    <phone>597-112-7341</phone>
+    <emails>
+      <email>mstockya@youku.com</email>
+      <email>mstockya@ft.com</email>
+      <email>mstockya@newyorker.com</email>
+    </emails>
+  </contact>
+  <address>
+    <street>92954 Armistice Court</street>
+    <city>Salt Lake City</city>
+    <state>UT</state>
+    <zip>84135</zip>
+  </address>
+</company>
+</companies>
