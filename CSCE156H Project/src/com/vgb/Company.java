@@ -34,39 +34,6 @@ public class Company {
 	}
 	
 	/**
-	 * Loads company data from a csv file into an array of companies
-	 * @param fileName
-	 * @param contactList
-	 * @return
-	 */
-	public static List<Company> loadCompanyData(String fileName, List<Person> contactList) {
-		List<Company> result = new ArrayList<Company>();
-		String line = null;
-		Person contact = null;
-		try (Scanner s = new Scanner(new File(fileName))) {
-			if (s.hasNext()) {
-				s.nextLine();
-			}
-			while (s.hasNext()) {
-				line = s.nextLine().trim();
-				if (!line.isEmpty()) {
-					String[] tokens = line.split(",");
-					Address address = new Address(tokens[3], tokens[4], tokens[5], tokens[6]);
-					for (Person x : contactList) {
-						if(x.getUuid().equals(tokens[1]));
-						contact = x;
-					}
-					Company company = new Company(UUID.fromString(tokens[0]), tokens[2], contact, address);
-					result.add(company);
-				}
-			}
-		} catch (Exception e) {
-			throw new RuntimeException("Encountered error on line " + line, e);
-		}
-		return result;
-	}
-	
-	/**
 	 * A getter method for the company's uuid
 	 * @return
 	 */

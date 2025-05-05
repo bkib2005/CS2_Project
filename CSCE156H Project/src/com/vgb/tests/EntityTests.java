@@ -1,9 +1,18 @@
-package com.vgb;
+package com.vgb.tests;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
+
+import com.vgb.Address;
+import com.vgb.Company;
+import com.vgb.Contract;
+import com.vgb.Equipment;
+import com.vgb.Lease;
+import com.vgb.Material;
+import com.vgb.Person;
+import com.vgb.Rental;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -129,7 +138,7 @@ public class EntityTests {
 		int numOfUnits = 11;
 
 		// 1. TODO: Create an instance of equipment with the data values
-		Material material = new Material(uuid, name, unit, costPerUnit);
+		Material material = new Material(uuid, name, unit, costPerUnit, 0);
 		material.setNumOfUnits(numOfUnits);
 		// 2. Establish the expected cost and tax (rounded to nearest cent)
 		double expectedCost = 109.89;
@@ -166,7 +175,7 @@ public class EntityTests {
 		Company company = new Company(UUID.randomUUID(), "Company Co.", person, address);
 
 		// 1. TODO: Create an instance of equipment with the data values
-		Contract contract = new Contract(uuid, name, company);
+		Contract contract = new Contract(uuid, name, company, 0);
 		contract.setCost(15000);
 		// 2. Establish the expected cost and tax (rounded to nearest cent)
 		double expectedCost = 15000;

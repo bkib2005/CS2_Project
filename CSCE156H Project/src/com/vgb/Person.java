@@ -11,7 +11,8 @@ import java.util.Scanner;
 import java.util.UUID;
 
 /**
- * A class which holds data for a person's uuid, name, phone number, and any emails they have
+ * A class which holds data for a person's uuid, name, phone number, and any
+ * emails they have
  */
 public class Person {
 	private UUID personUuid;
@@ -22,6 +23,7 @@ public class Person {
 
 	/**
 	 * A constructor for the person class
+	 * 
 	 * @param uuid
 	 * @param firstName
 	 * @param lastName
@@ -37,42 +39,8 @@ public class Person {
 	}
 
 	/**
-	 * Loads persons data from a csv file and puts it into an array
-	 * @param fileName
-	 * @return
-	 */
-	public static List<Person> loadPersonData(String fileName) {
-		List<Person> result = new ArrayList<Person>();
-		String line = null;
-		try (Scanner s = new Scanner(new File(fileName))) {
-			if (s.hasNext()) {
-				s.nextLine();
-			}
-			while (s.hasNext()) {
-				line = s.nextLine().trim();
-				if (!line.isEmpty()) {
-					String[] tokens = line.split(",");
-					List<String> emailTokens = new ArrayList<String>();
-					if (tokens.length >= 4) {
-						for (int i = 4; i < tokens.length; i++) {
-							emailTokens.add(tokens[i]);
-						}
-						Person person = new Person(UUID.fromString(tokens[0]), tokens[1], tokens[2], tokens[3], emailTokens);
-						result.add(person);
-					} else {
-						Person person = new Person(UUID.fromString(tokens[0]), tokens[1], tokens[2], tokens[3], null);
-						result.add(person);
-					}
-				}
-			}
-		} catch (Exception e) {
-			throw new RuntimeException("Encountered error on line " + line, e);
-		}
-		return result;
-	}
-
-	/**
 	 * A getter method for the person's uuid
+	 * 
 	 * @return
 	 */
 	public UUID getUuid() {
@@ -81,6 +49,7 @@ public class Person {
 
 	/**
 	 * A getter method for the person's first name
+	 * 
 	 * @return
 	 */
 	public String getFirstName() {
@@ -89,6 +58,7 @@ public class Person {
 
 	/**
 	 * A getter method for the person's last name
+	 * 
 	 * @return
 	 */
 	public String getLastName() {
@@ -97,14 +67,16 @@ public class Person {
 
 	/**
 	 * A getter method for the person's phone number
+	 * 
 	 * @return
 	 */
 	public String getPhone() {
 		return phone;
 	}
-	
+
 	/**
 	 * A getter method for the person's emails
+	 * 
 	 * @return
 	 */
 	public List<String> getEmails() {
@@ -113,10 +85,8 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return "   Person UUID: " + this.personUuid + "\n"
-				+ "   Name: " + firstName + " " + lastName + "\n"
-				+ "   Phone: " + phone + "\n"
-				+ "   Emails: " + emails;
+		return "   Person UUID: " + this.personUuid + "\n" + "   Name: " + firstName + " " + lastName + "\n"
+				+ "   Phone: " + phone + "\n" + "   Emails: " + emails;
 	}
 
 }

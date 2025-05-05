@@ -18,9 +18,9 @@ public class DataConverter {
 
 	public static void main(String[] args) {
 		XStream xstream = new XStream();
-		List<Person> personData = Person.loadPersonData("data/Persons.csv");
-		List<Company> companyData = Company.loadCompanyData("data/Companies.csv", personData);
-		List<Item> itemData = Item.loadItemData("data/Items.csv", companyData);
+		List<Person> personData = DataLoader.loadPersonData("data/Persons.csv");
+		List<Company> companyData = DataLoader.loadCompanyData("data/Companies.csv", personData);
+		List<Item> itemData = DataLoader.loadItemData("data/Items.csv", companyData);
 
 		xstream.alias("person", Person.class);
 		xstream.alias("email", String.class);

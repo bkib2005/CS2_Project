@@ -46,4 +46,12 @@ public class Lease extends Equipment {
 				+ "   Lease Cost: $" + getCost();
 	}
 
+	public LocalDate getStart() {
+		return start;
+	}
+
+	public LocalDate getEnd() {
+		return end;
+	}
+
 }

@@ -23,10 +23,11 @@ public class Material extends Item {
 	 * @param unit
 	 * @param costPerUnit
 	 */
-	public Material(UUID uuid, String name, String unit, double costPerUnit) {
+	public Material(UUID uuid, String name, String unit, double costPerUnit, int numOfUnits) {
 		super(uuid, name);
 		this.unit = unit;
 		this.costPerUnit = costPerUnit;
+		this.numOfUnits = numOfUnits;
 	}
 	
 	public void setNumOfUnits(int numOfUnits) {
@@ -56,6 +57,22 @@ public class Material extends Item {
 				+ "   Cost Per Unit: $" + String.format("%.2f", this.costPerUnit) + "\n"
 				+ "   Number of Units: " + this.numOfUnits + "\n"
 				+ "   Cost: " + String.format("%.2f", getCost());
+	}
+
+	public String getUnit() {
+		return unit;
+	}
+
+	public double getCostPerUnit() {
+		return costPerUnit;
+	}
+
+	public int getNumOfUnits() {
+		return numOfUnits;
+	}
+
+	public static double getTaxRate() {
+		return TAX_RATE;
 	}
 
 }

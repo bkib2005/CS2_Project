@@ -29,4 +29,12 @@ public class Rental extends Equipment {
 			+ "   Rental Cost: " + String.format("$%.2f", getCost());
 	}
 
+	public double getRentalHours() {
+		return rentalHours;
+	}
+
+	public static double getTaxRate() {
+		return TAX_RATE;
+	}
+
 }

@@ -19,9 +19,10 @@ public class Contract extends Item {
 	 * @param name
 	 * @param servicer
 	 */
-	public Contract(UUID uuid, String name, Company servicer) {
+	public Contract(UUID uuid, String name, Company servicer, double cost) {
 		super(uuid, name);
 		this.servicer = servicer;
+		this.cost = cost;
 	}
 	
 	/**
@@ -45,6 +46,10 @@ public class Contract extends Item {
 		return super.toString()
 				+ "   Servicer: \n" + servicer +"\n"
 				+ "   Cost: $" + cost;
+	}
+
+	public Company getServicer() {
+		return servicer;
 	}
 
 }
