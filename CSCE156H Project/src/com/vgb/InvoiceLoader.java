@@ -111,6 +111,24 @@ public class InvoiceLoader {
 		return null;
 	}
 
+	public static List<Company> getAllCompanies() {
+		List<Company> companyList = new ArrayList<>();
+		String query = "SELECT companyId FROM Company";
+		try (Connection conn = ConnectionFactory.getConnection(); PreparedStatement ps = conn.prepareStatement(query)) {
+			try (ResultSet rs = ps.executeQuery()) {
+				while (rs.next()) {
+					int id = rs.getInt("companyId");
+					Company company = getCompanyById(id, conn);
+					companyList.add(company);
+				}
+			}
+		} catch (SQLException e) {
+			LOGGER.error("Failed to load Company", e);
+			throw new RuntimeException(e);
+		}
+		return companyList;
+	}
+
 	public static List<Item> getItemsByInvoiceId(int invoiceId, Connection conn) {
 		List<Item> itemList = new ArrayList<>();
 

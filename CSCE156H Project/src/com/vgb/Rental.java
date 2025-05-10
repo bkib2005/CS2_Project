@@ -14,12 +14,12 @@ public class Rental extends Equipment {
 
 	@Override
 	public double getCost() {
-		return Math.round((getPrice() * 0.01) * rentalHours * 100.0) / 100.0;
+		return Math.round(((getPrice() * 0.001) * rentalHours) * 100.0) / 100.0;
 	}
 
 	@Override
 	public double getTax() {
-		return Math.round(getCost() * TAX_RATE * 100.0) / 100.0;
+		return Math.round((getCost() * TAX_RATE) * 100.0) / 100.0;
 	}
 
 	@Override
